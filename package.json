@@ -1,14 +1,14 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "name": "commercify",
+    "description": "Final Project for Web and Distributed Prog",
     "version": "0.0.1",
     "private": true,
     "license": "MIT",
     "author": "Microsoft",
     "scripts": {
-        "start": "node index.js"
+        "start": "node server.js"
     },
     "dependencies": {
-        "express": "^4.18.1"
+        "express": "^4.18.2"
     }
 }
