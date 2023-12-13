@@ -5,10 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Commercify</title>
+  <style>
+
+    header a {
+      float: right;
+      background-color:antiquewhite;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1 style="text-align: start;">Commercify</h1>
+    <form id="form" role="search" style="text-align: center;">
+      <input type="search" id="query" name="q"
+       placeholder="Search..."
+       aria-label="Search through site content">
+      <button>Search</button>
+    </form>
+    <a href="login.html">Login</a><br/>
   </header>
   <main>
     <section id="products">
@@ -17,6 +31,15 @@
       <h2 style="text-align: left;">Shopping Cart</h2>
       <ul id="cart-items">
       </ul>
+    </section>
+    <section id="cart-count">
+      <p>Number of items in cart: <span id="cart-count">0</span></p>
+      <br>
+      <ul id="cart-count"></ul>
+    </section>
+    <section id="total-price">
+      <p>Total Price: $<span id="total-price">0.00</span></p>
+      <ul id="total-price"></ul>
     </section>
   </main>
   <script src="app.js"></script>

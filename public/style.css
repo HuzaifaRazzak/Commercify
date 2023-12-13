@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: rgb(24, 187, 24);
     text-align: center;
     padding: 1rem;
 }
@@ -41,4 +41,17 @@ li {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+#cart-count {
+    float: center;
+    padding: auto;
+    color:black
+    
+}
+
+#total-price {
+    float: right;
+    padding: auto;
+    color:blue
 }
